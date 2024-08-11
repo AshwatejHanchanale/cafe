@@ -1,4 +1,4 @@
-.warning{
+.warning {
     height: 40px;
     width: 250px;
     position: absolute;
@@ -10,4 +10,5 @@
     font-family: cursive;
     padding: 5px;
     border-radius: 5px;
+    align-items: center;
 }

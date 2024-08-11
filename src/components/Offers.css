@@ -1,0 +1,22 @@
+/* src/components/Offers.css */
+.offers-carousel {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    /* You can adjust the max width as needed */
+}
+
+.offer-card {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.offer-card img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    /* You can adjust the max height as needed */
+    object-fit: cover;
+    margin-bottom: 3px;
+}

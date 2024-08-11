@@ -1,24 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-article{
-    width: 60%;
+
+article {
+    width: 80%;
     margin: auto;
 }
-.cart_box img{
+
+.cart_box img {
     width: 50px;
     height: 50px;
 }
-.cart_img{
+
+.cart_img {
     display: flex;
     width: 400px;
 }
+
 .cart_img p {
+
+    margin-left: 5px;
     font-weight: bold;
-    margin-left: 10px;
+
 }
-.cart_box{
+
+.cart_box {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,43 +33,80 @@ article{
     border-bottom: 2px solid skyblue;
     padding-bottom: 5px;
 }
-.cart_box div:nth-child(2) button{
+
+.cart_box div:nth-child(2) button {
     padding: 5px 10px;
     font-weight: bold;
     margin-right: 5px;
 }
-.cart_box div:nth-child(3) button{
+
+.cart_box div:nth-child(3) button {
     padding: 5px 10px;
     font-weight: bold;
     letter-spacing: 2px;
-    border:none;
+    border: none;
     outline: none;
     color: white;
     background-color: skyblue;
     border-radius: 5px;
     cursor: pointer;
 }
-.cart_box div:nth-child(3) button:hover{
-    background-color: darkseagreen;
+
+.cart_box div:nth-child(3) button:hover {
+    background-color: rgb(126, 226, 126);
+
 }
-.cart_box div:nth-child(3) span{
+
+.cart_box div:nth-child(3) span {
     background-color: lightgreen;
     padding: 5px 10px;
     border-radius: 5px;
     margin-right: 10px;
 }
-.total{
+
+.total {
     display: flex;
     justify-content: space-between;
 }
-.total span:nth-child(1){
-    font-size: 2rem;
+
+.total span:nth-child(1) {
+    font-size: 1.3rem;
     color: skyblue;
     font-weight: bold;
     letter-spacing: 2px;
 }
-.total span:nth-child(2){
+
+.total span:nth-child(2) {
     font-size: 2rem;
     color: green;
     font-weight: bold;
+}
+
+.payment {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+
+
+
+}
+
+.payment button:nth-child(1) {
+    background-color: rgba(245, 245, 77, 0.916);
+    border-radius: 5px;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.payment button:nth-child(2) {
+    background-color: rgba(60, 249, 13, 0.817);
+    border-radius: 5px;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    font-weight: bold;
+
 }
